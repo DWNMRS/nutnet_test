@@ -185,7 +185,7 @@ html,
 }
 
 .logo {
-  width: 128px;
+  max-width: 128px;
   height: 50px;
 }
 
@@ -660,6 +660,12 @@ html,
 
 .footer__text {
   line-height: 26px;
+}
+
+.footer-title {
+  display: flex;
+  align-items: center;
+  height: 50px;
 }
 
 .footer-contacts {
